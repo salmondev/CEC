@@ -91,30 +91,30 @@ int main()
         char bhti[32];
         float bhti2;
 
-        ///Updated at 19 March 2019
+        ///Updated at 26 September 2019
 
         ///BUY
-        const float bhtg = 41.05;
-        const float bhtu = 30.48;
-        const float bhte = 35.28;
-        const float bhtj = 0.2785;
-        const float bhtk = 0.0255;
-        const float bhts = 23.02;
-        const float bhth = 3.94;
+        const float bhtg = 37.29;
+        const float bhtu = 29.36;
+        const float bhte = 32.99;
+        const float bhtj = 0.2783;
+        const float bhtk = 0.0234;
+        const float bhts = 21.77;
+        const float bhth = 3.80;
 
         ///SELL
-        const float hkd  = 0.411;
-        const float sgd  = 0.02382;
-        const float gbp  = 0.04254;
-        const float usd  = 0.03178;
-        const float eur  = 0.03641;
-        const float jpy  = 2.897;
-        const float krw  = 0.0294;
+        const float hkd  = 0.398;
+        const float sgd  = 0.02244;
+        const float gbp  = 0.03868;
+        const float usd  = 0.03068;
+        const float eur  = 0.03394;
+        const float jpy  = 2.888;
+        const float krw  = 0.0257;
 
 convert:
         printf("\n\n\t\t  <<<<< Currency Exchange Converter >>>>>\n\n");
         ///printf("\n\n\t\t <<UPDATED "%s,&updated);
-        printf("\n\t\t\ <<< UPDATED AT 19 March 2019 >>>\n\n");
+        printf("\n\t\t\ <<< UPDATED AT 26 September 2019 >>>\n\n");
         printf("\n\t1.Baht <> US Dollar\n\n\t2.Baht <> Pound\n\n\t3.Baht <> Euro\n\n\t4.Baht <> Yen\n\n\t5.Baht <> Won\n\n\t6.Baht <> Singapore Dollar\n\n\t7.Baht <> Hong Kong Dollar\n\n\t8.Exit\n\n");
         gotoxy(19,24);
         t();
